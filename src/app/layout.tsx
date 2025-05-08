@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "What's for Dinner?",
   description: "Generate recipes based on your ingredients and preferences",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
